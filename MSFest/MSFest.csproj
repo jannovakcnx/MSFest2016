@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9EAB7229-66D7-4F65-AFAD-6183A555594A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSFest</RootNamespace>
+    <AssemblyName>MSFest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\MSFest\MSFest.feature">
+      <FeatureId>{d3300a0e-59f1-4752-8189-4fc000c5bfed}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="packages.config" />
+    <None Include="Package\Package.package">
+      <PackageId>{cf463d2d-0c39-4421-9b10-92e312557c77}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Scripts\jquery\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery\jquery-3.1.1.slim.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6201f8c-5ef7-4080-8d35-e2e1f8992cf5}</SharePointProjectItemId>
+    </None>
+    <None Include="s_Payment\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8f679358-0497-4e2c-bb88-5205f3b4e336}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\PaymentField.ts" />
+    <TypeScriptCompile Include="Scripts\PaymentField2.ts" />
+    <TypeScriptCompile Include="Scripts\SimpleView.ts" />
+    <TypeScriptCompile Include="Scripts\TabbedForm.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\sharepoint\SharePoint.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery\themes\base\accordion.css" />
+    <Content Include="Scripts\jquery\themes\base\all.css" />
+    <Content Include="Scripts\jquery\themes\base\autocomplete.css" />
+    <Content Include="Scripts\jquery\themes\base\base.css" />
+    <Content Include="Scripts\jquery\themes\base\button.css" />
+    <Content Include="Scripts\jquery\themes\base\core.css" />
+    <Content Include="Scripts\jquery\themes\base\datepicker.css" />
+    <Content Include="Scripts\jquery\themes\base\dialog.css" />
+    <Content Include="Scripts\jquery\themes\base\draggable.css" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\jquery\themes\base\jquery-ui.css" />
+    <Content Include="Scripts\jquery\themes\base\jquery-ui.min.css" />
+    <Content Include="Scripts\jquery\themes\base\menu.css" />
+    <Content Include="Scripts\jquery\themes\base\progressbar.css" />
+    <Content Include="Scripts\jquery\themes\base\resizable.css" />
+    <Content Include="Scripts\jquery\themes\base\selectable.css" />
+    <Content Include="Scripts\jquery\themes\base\selectmenu.css" />
+    <Content Include="Scripts\jquery\themes\base\slider.css" />
+    <Content Include="Scripts\jquery\themes\base\sortable.css" />
+    <Content Include="Scripts\jquery\themes\base\spinner.css" />
+    <Content Include="Scripts\jquery\themes\base\tabs.css" />
+    <Content Include="Scripts\jquery\themes\base\theme.css" />
+    <Content Include="Scripts\jquery\themes\base\tooltip.css" />
+    <Content Include="Features\MSFest\MSFest.Template.xml">
+      <DependentUpon>MSFest.feature</DependentUpon>
+    </Content>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\PaymentField.js" />
+    <Content Include="Scripts\PaymentField2.js" />
+    <Content Include="Scripts\SimpleView.js" />
+    <Content Include="Scripts\TabbedForm.js" />
+    <Content Include="s_Payment\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" />
+</Project>

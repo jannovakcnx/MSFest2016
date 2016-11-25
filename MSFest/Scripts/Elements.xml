@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\PaymentField.js" Url="Scripts/PaymentField.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\PaymentField2.js" Url="Scripts/PaymentField2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\TabbedForm.js" Url="Scripts/TabbedForm.js" ReplaceContent="TRUE"/>
+    <File Path="Scripts\jquery\jquery-3.1.1.slim.min.map" Url="Scripts/jquery/jquery-3.1.1.slim.min.map" />
+    <File Path="Scripts\jquery\jquery-3.1.1.slim.min.js" Url="Scripts/jquery/jquery-3.1.1.slim.min.js" />
+    <File Path="Scripts\jquery\jquery-3.1.1.slim.js" Url="Scripts/jquery/jquery-3.1.1.slim.js" />
+    <File Path="Scripts\jquery\jquery-3.1.1.min.map" Url="Scripts/jquery/jquery-3.1.1.min.map" />
+    <File Path="Scripts\jquery\jquery-3.1.1.min.js" Url="Scripts/jquery/jquery-3.1.1.min.js" />
+    <File Path="Scripts\jquery\jquery-3.1.1.js" Url="Scripts/jquery/jquery-3.1.1.js" />
+    <File Path="Scripts\jquery\jquery-3.1.1.intellisense.js" Url="Scripts/jquery/jquery-3.1.1.intellisense.js" />
+    <File Path="Scripts\jquery\jquery-ui-1.12.1.min.js" Url="Scripts/jquery/jquery-ui-1.12.1.min.js" />
+    <File Path="Scripts\jquery\jquery-ui-1.12.1.js" Url="Scripts/jquery/jquery-ui-1.12.1.js" />
+    <File Path="Scripts\jquery\themes\base\accordion.css" Url="Scripts/jquery/themes/base/accordion.css" />
+    <File Path="Scripts\jquery\themes\base\all.css" Url="Scripts/jquery/themes/base/all.css" />
+    <File Path="Scripts\jquery\themes\base\autocomplete.css" Url="Scripts/jquery/themes/base/autocomplete.css" />
+    <File Path="Scripts\jquery\themes\base\base.css" Url="Scripts/jquery/themes/base/base.css" />
+    <File Path="Scripts\jquery\themes\base\button.css" Url="Scripts/jquery/themes/base/button.css" />
+    <File Path="Scripts\jquery\themes\base\core.css" Url="Scripts/jquery/themes/base/core.css" />
+    <File Path="Scripts\jquery\themes\base\datepicker.css" Url="Scripts/jquery/themes/base/datepicker.css" />
+    <File Path="Scripts\jquery\themes\base\dialog.css" Url="Scripts/jquery/themes/base/dialog.css" />
+    <File Path="Scripts\jquery\themes\base\draggable.css" Url="Scripts/jquery/themes/base/draggable.css" />
+    <File Path="Scripts\jquery\themes\base\jquery-ui.css" Url="Scripts/jquery/themes/base/jquery-ui.css" />
+    <File Path="Scripts\jquery\themes\base\jquery-ui.min.css" Url="Scripts/jquery/themes/base/jquery-ui.min.css" />
+    <File Path="Scripts\jquery\themes\base\menu.css" Url="Scripts/jquery/themes/base/menu.css" />
+    <File Path="Scripts\jquery\themes\base\progressbar.css" Url="Scripts/jquery/themes/base/progressbar.css" />
+    <File Path="Scripts\jquery\themes\base\resizable.css" Url="Scripts/jquery/themes/base/resizable.css" />
+    <File Path="Scripts\jquery\themes\base\selectable.css" Url="Scripts/jquery/themes/base/selectable.css" />
+    <File Path="Scripts\jquery\themes\base\selectmenu.css" Url="Scripts/jquery/themes/base/selectmenu.css" />
+    <File Path="Scripts\jquery\themes\base\slider.css" Url="Scripts/jquery/themes/base/slider.css" />
+    <File Path="Scripts\jquery\themes\base\sortable.css" Url="Scripts/jquery/themes/base/sortable.css" />
+    <File Path="Scripts\jquery\themes\base\spinner.css" Url="Scripts/jquery/themes/base/spinner.css" />
+    <File Path="Scripts\jquery\themes\base\tabs.css" Url="Scripts/jquery/themes/base/tabs.css" />
+    <File Path="Scripts\jquery\themes\base\theme.css" Url="Scripts/jquery/themes/base/theme.css" />
+    <File Path="Scripts\jquery\themes\base\tooltip.css" Url="Scripts/jquery/themes/base/tooltip.css" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Scripts/jquery/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" Url="Scripts/jquery/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" Url="Scripts/jquery/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" Url="Scripts/jquery/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_glass_75_dadada_1x400.png" Url="Scripts/jquery/themes/base/images/ui-bg_glass_75_dadada_1x400.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" Url="Scripts/jquery/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" Url="Scripts/jquery/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" Url="Scripts/jquery/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_222222_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_222222_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_2e83ff_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_2e83ff_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_444444_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_444444_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_454545_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_454545_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_555555_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_555555_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_777620_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_777620_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_777777_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_777777_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_888888_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_888888_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_cc0000_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_cc0000_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_cd0a0a_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_cd0a0a_256x240.png" />
+    <File Path="Scripts\jquery\themes\base\images\ui-icons_ffffff_256x240.png" Url="Scripts/jquery/themes/base/images/ui-icons_ffffff_256x240.png" />
+    <File Path="Scripts\typings\jqueryui\jqueryui.d.ts" Url="Scripts/typings/jqueryui/jqueryui.d.ts" />
+    <File Path="Scripts\typings\jquery\jquery.d.ts" Url="Scripts/typings/jquery/jquery.d.ts" />
+    <File Path="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" Url="Scripts/typings/microsoft-ajax/microsoft.ajax.d.ts" />
+    <File Path="Scripts\TabbedForm.js" Url="Scripts/TabbedForm.js" />    
+    <File Path="Scripts\SimpleView.js" Url="Scripts/SimpleView.js" />
+  </Module>
+</Elements>

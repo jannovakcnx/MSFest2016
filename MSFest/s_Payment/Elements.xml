@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0984c953-13dd-4b4f-b09d-48f9856880a2}"
+       Name="s_Payment"
+       DisplayName="Paid ammount"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns"
+       JSLink="~site/Scripts/PaymentField.js">
+  </Field>
+</Elements>

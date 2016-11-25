@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="cf463d2d-0c39-4421-9b10-92e312557c77" solutionId="cf463d2d-0c39-4421-9b10-92e312557c77" resetWebServer="false" sharePointProductVersion="16.0" name="MSFest" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d3300a0e-59f1-4752-8189-4fc000c5bfed" />
+  </features>
+</package>
